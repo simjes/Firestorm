@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:splitMotionEvents="false" >
+
+    <Button
+        android:id="@+id/Cold"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/roundbuttonblue"
+        android:onClick="Hot_stop"
+        android:text="@string/cold"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/Hot"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/roundbutton"
+        android:onClick="Hot"
+        android:text="@string/hot"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

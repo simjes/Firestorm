@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Firestorm</string>
+    <string name="action_settings">Settings</string>
+    <string name="hot">Hot</string>
+    <string name="cold">Cold</string>
+	<string name="randomcolor">Random color</string>
+	<string name="standardcolor">Standard color</string>
+</resources>

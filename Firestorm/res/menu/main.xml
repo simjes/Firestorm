@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item android:id="@+id/randomcolor"
+       android:title="@string/randomcolor"
+       android:showAsAction="never"/>
+	
+   <item android:id="@+id/standardcolor"
+       android:title="@string/standardcolor"
+       android:showAsAction="never"/>
+</menu>
